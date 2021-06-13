@@ -26,7 +26,7 @@ const Sidebar = () => {
         })}
       </ul>
       <ul className="social-icons">
-        {social.mao((link) => {
+        {social.map((link) => {
           const { id, url, icon } = link;
           return (
             <li key={id}>
