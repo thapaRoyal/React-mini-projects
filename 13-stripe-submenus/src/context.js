@@ -33,6 +33,8 @@ const AppProvider = ({ children }) => {
         isSubmenuOpen,
         openSubmenu,
         closeSubmenu,
+        page,
+        location,
       }}
     >
       {children}
